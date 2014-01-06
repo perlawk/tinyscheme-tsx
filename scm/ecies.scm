@@ -1,0 +1,11 @@
+(load-extension "tsx-1.1/tsx")
+
+(let* ((init (ecies-init))
+      (keys (vector->list (ecies-keypair)))
+      (public-x (car keys))
+      (public-y (cadr keys))
+      (private (caddr keys))
+      (crypt (ecies-encryption "banana" public-x public-y))
+      (plain (ecies-decryption crypt private)))
+  (display plain)
+  (newline))
