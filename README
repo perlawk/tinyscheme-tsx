@@ -1,0 +1,9 @@
+This is a mixing of tinyscheme v1.41, the tsx, adding of sqlite 
+and encrpytion from different sources, I only modify the tinyscheme v1.41 to
+match with the extensions.
+
+The copy right is belongs to the original authors:
+
+Tinyscheme v1.41, Tsx :  Manuel Heras-Gilsanz (manuel@heras-gilsanz.com)
+
+Sqlite and ecies extension : Kiril Kirov @ https://github.com/kirilk/tinyscheme.git
